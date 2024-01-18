@@ -10,7 +10,7 @@ import java.sql.*;
 import java.util.Date;
 
 public class EjemploJdbc {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws SQLException {
 
         Repositorio<Producto> repositorio = new ProductoRepositorioImpl();
         System.out.println("=========== listar ===========");
