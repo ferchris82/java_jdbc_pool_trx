@@ -19,7 +19,7 @@ public interface Servicio {
 
     Categoria porIdCategoria(Long id) throws SQLException;
 
-    Categoria guardarCategoria(Long id) throws SQLException;
+    Categoria guardarCategoria(Categoria categoria) throws SQLException;
 
     void eliminarCategoria(Long id) throws SQLException;
 
